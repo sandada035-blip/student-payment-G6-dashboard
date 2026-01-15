@@ -1,0 +1,29 @@
+body { font-family: 'Roboto', sans-serif; background-color: #f3f4f6; }
+.khmer-text { font-family: 'Noto Serif Khmer', serif; }
+
+/* Loader */
+.loader { border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* Stats Cards */
+.stat-card { background: white; padding: 1rem; border-radius: 0.5rem; shadow: 0 1px 3px rgba(0,0,0,0.1); border-top-width: 4px; }
+.stat-label { color: #6b7280; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; }
+.stat-value { font-size: 1.25rem; font-weight: 700; margin-top: 0.25rem; }
+
+/* Badges */
+.badge-paid { background-color: #d1fae5; color: #065f46; border: 1px solid #34d399; }
+.badge-partial { background-color: #fef3c7; color: #b45309; border: 1px solid #f59e0b; }
+.badge-unpaid { background-color: #fee2e2; color: #b91c1c; border: 1px solid #f87171; }
+
+/* Mobile Cards */
+.mobile-card { background: white; border-radius: 8px; padding: 16px; border: 1px solid #e5e7eb; border-left-width: 4px; }
+
+/* Print Settings */
+@media print {
+    .no-print { display: none !important; }
+    .print-header-container { display: block !important; margin-bottom: 20px; }
+    table { font-size: 10px !important; border-collapse: collapse; }
+    th, td { border: 1px solid #000 !important; padding: 4px !important; }
+    body { background: white; padding: 0 !important; }
+}
+.print-header-container { display: none; }
