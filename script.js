@@ -1,4 +1,4 @@
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzkSucZrtLhXgqIqCb1U1UzIy-aKNyWLQvxCaHas1qLm1RXM9GI3fSnrFcSXPKwjohy/exec?type=json";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycby37IgDXhsncKks4Muav2G_kUzueckYbx_ntDw55YVqRhQ7EMb-8vp8B9j-jS9CGPBa/exec?type=json";
 
 let allData = [];
 
